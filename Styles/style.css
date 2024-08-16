@@ -559,6 +559,8 @@ input[type="datetime"]{
 
 .ft{
     margin: 0px;
+    font-size: 70px;
+    font-weight: 800;
 }
 
 .fd{
@@ -627,14 +629,13 @@ footer{
 }
 
 .ffc{
+    padding: 60px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     justify-content: center;
-    align-items: center;
     gap: 102px;
-    margin-left: 400px;
+    margin-left: 350px;
 }
-
 
 
 
@@ -896,7 +897,7 @@ footer{
     }
     
     .info-card-title{
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 600;
     }
     
@@ -904,6 +905,7 @@ footer{
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
+        margin: 0px 20px;
     }
 
     /* sumbit-box-style */
@@ -916,7 +918,7 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 0px 20px;
+    margin: 66px 20px 0px 20px;
     padding: 45px;
 }
 
@@ -962,7 +964,264 @@ footer{
     font-size: 32px;
     font-weight: 900;
 }
-    
+
+/* calculator-style */
+
+/* parent-style */
+
+.calculator-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 30px;
+    padding-bottom: 50px;
+    margin-left: 40px;
+}
+
+.chart-box-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 50px;
+}
+.full-calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 42px;
+    background: rgb(34, 34, 34);
+}
+
+.calc-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0px 60px;
+}
+
+.calculator-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 88px;
+    margin-top: 100px;
+}
+
+/* child-style */
+.calculator{
+    width: 577px;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.calc-des{
+    margin: 0px;
+}
+
+
+.ct1{
+    margin: 0px;
+}
+
+form{
+    display: unset;
+    gap: 30px;
+}
+
+.chart-box-title{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 900;
+}
+
+input[type="text"]{
+    width: 168.5px;
+    height: 46px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    text-align: center;
+
+}
+
+input[type="datetime"]{
+    width: 170.5px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    text-align: center;
+}
+
+.sex{
+    width: 170.5px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 0px 30px;
+}
+.activity{
+    width: 358px;
+    height: 48px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 0px 20px;
+}
+
+
+.c1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.c3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.calculator-description{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* meet-card-box-style */
+
+.meet-card-box-container{
+    display: grid;
+    grid-template-columns: repeat(1, 326px);
+    row-gap: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.meet-card-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 58px;
+}
+
+.meet-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.mt1{
+    margin-bottom: 0px;
+}
+
+/* footer style  */
+
+.ft{
+    margin: 0px;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.fd{
+    font-size: 16px;
+}
+
+.ft1{
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.f-ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 0px;
+}
+
+.f-ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hr-1{
+    width: 354px;
+    color: rgba(255, 255, 255, 0.1);
+}
+
+.ff{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.3px;
+}
+
+.foot{
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding-top: 88px;
+}
+
+.f-link{
+    display: grid;
+    grid-template-columns: repeat(1, 150px);
+    gap: 50px;
+}
+
+.f-intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.ffc{
+    padding: 60px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-content: center;
+    gap: 50px;
+    margin-left: 0px;
+}
+
 
     
 }
